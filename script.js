@@ -7,7 +7,7 @@ async function fetchData1() {
         let card = document.createElement('div');
         card.className = 'col-sm-12 col-lg-4';
         card.innerHTML = `
-            <div class='card m-3 text-center'>
+            <div class='card text-center'>
                 <div class='card-header'>
                     <h4>${data.name.common}</h4>
                 </div>
