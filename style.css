@@ -29,3 +29,18 @@ img{
     height: 50%;
 }
 
+@media (max-width:576px) {
+    .card{
+ 
+        height: 100vh;
+        width: 91.5%;
+        margin-right: 5px;
+        margin-top: 5px;
+       
+    }
+    .temperatureDiv{
+        margin-top: 30px;
+    }
+
+
+}
