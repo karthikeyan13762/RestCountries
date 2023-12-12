@@ -4,6 +4,9 @@
     box-sizing: border-box;
   
 }
+body{
+    width: 100%;
+}
 .container{
    display: flex;
    flex-wrap: wrap;
@@ -29,23 +32,25 @@ img{
     height: 50%;
 }
 
-@media (max-width:576px) {
+@media (max-width:406px) {
     .card{
- 
-        height: 100vh;
-        width: 91.5%;
-        margin-right: 5px;
-        margin-top: 5px;
-       
+        width: 90%;
+        
+            
     }
     .temperatureDiv{
         margin-top: 30px;
+    }
+
+    .container{
+       overflow-x: hidden;
     }
     *{
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        overflow: hidden;
+      
     }
+   
 
 }
